@@ -1,0 +1,85 @@
+# Task 8 - Working with VPNs
+
+## Objective
+To gain hands-on experience with Virtual Private Networks (VPNs) and understand how they protect privacy, secure communication, and encrypt traffic.
+
+---
+
+## Steps Performed
+
+### Step 1: Install VPN
+- Downloaded and installed **ProtonVPN (Free tier)**.  
+- Created a free Proton account to log in.  
+
+### Step 2: Open Application
+- Launched ProtonVPN and signed in.  
+- Dashboard displayed current (real) IP address and “Unprotected” status.  
+
+### Step 3: Connect to VPN Server
+- Selected **Fastest Free Server** option.  
+- Clicked on **Connect** to establish a secure connection.  
+
+### Step 4: Verify VPN Connection
+- Opened [whatismyipaddress.com](https://whatismyipaddress.com).  
+- Confirmed that the IP address changed from my real one to the VPN server’s IP.  
+- Took screenshots before and after connection.  
+
+### Step 5: Test Browsing with VPN
+- Visited common websites (Google, Wikipedia) to check browsing.  
+- Observed normal functionality with slightly reduced speed due to encryption.  
+
+### Step 6: Disconnect and Compare
+- Disconnected VPN from the app.  
+- Re-checked IP address and confirmed it returned to the original one.  
+- Compared browsing speeds with and without VPN.  
+
+### Step 7: Research on VPN Features
+After using ProtonVPN, I researched its features to understand how it protects user privacy and secures communication. The key features are:
+
+- **AES-256 Encryption** → Provides strong encryption to protect online data from eavesdropping.  
+- **Supported Protocols** → OpenVPN, IKEv2/IPSec, and WireGuard for secure tunneling.  
+- **No-Logs Policy** → ProtonVPN does not log user activity, ensuring privacy.  
+- **Kill Switch** → Blocks internet traffic if the VPN disconnects unexpectedly, preventing IP leaks.  
+- **DNS Leak Protection** → Ensures DNS requests remain encrypted and private.  
+- **Split Tunneling** → Allows some apps/websites to bypass the VPN for faster performance.  
+- **Secure Core (Paid Feature)** → Routes traffic through multiple servers for extra security.  
+- **Cross-Platform Support** → Available on Windows, macOS, Linux, Android, and iOS.  
+- **Free Tier Limitations** → Limited servers, only 1 device connection at a time, and slightly reduced speeds compared to paid plans.  
+
+These features show how VPNs enhance online security and privacy, but also highlight the limitations of free VPN services.
+
+### Step 8: Documentation
+- Created this `README.md` file to document all steps performed.  
+- Added screenshots to show proof of VPN connection:  
+
+#### Screenshots
+- **Before VPN Connection:**  
+  ![Before VPN](before_vpn.png)
+
+- **After VPN Connection:**  
+  ![After VPN](after_vpn.png)
+
+---
+
+## Benefits of VPN
+- Protects online privacy by hiding real IP address.  
+- Encrypts internet traffic to prevent data theft.  
+- Helps bypass geo-restrictions and censorship.  
+- Secures browsing on public Wi-Fi.  
+
+## Limitations of VPN
+- Slower browsing speed due to encryption.  
+- Free versions have limited servers and features.  
+- Cannot guarantee 100% anonymity (still depends on trust in provider).  
+
+---
+
+## Key Concepts Learned
+- **VPN (Virtual Private Network):** Creates a secure tunnel between user and internet.  
+- **Encryption:** Protects data from interception (AES-256 standard).  
+- **Tunneling Protocols:** OpenVPN, IKEv2, WireGuard used for secure data transfer.  
+- **Kill Switch:** Stops internet if VPN disconnects to prevent IP/DNS leaks.  
+
+---
+
+✅ Task 8 successfully completed.
